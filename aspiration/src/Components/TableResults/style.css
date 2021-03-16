@@ -1,6 +1,9 @@
 .btn-container {
   float: right;
 }
+li {
+  text-decoration: underline;
+}
 
 @media (max-width: 767px) {
   .btn-container {

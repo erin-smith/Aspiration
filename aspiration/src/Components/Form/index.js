@@ -1,20 +1,31 @@
 import React from "react";
 
-function Form({ query, handleInputChange, handleFormSubmit }) {
+
+function Form (props) {
+
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const searchTerm = document.getElementById("searchTerm").value.trim();
+    console.log("Button was clicked and the topic is", searchTerm);
+    if (searchTerm.length === 0){
+      alert ("Please enter a topic");
+      return;
+    }
+    props.call(searchTerm.toLowerCase());
+  };
+
   return (
-    <form>
+    <form className="search">
       <div className="form-group">
         <label htmlFor="Query">
           <strong>Topic</strong>
         </label>
         <input
           className="form-control"
-          id="Topic"
           type="text"
-          value={query}
           placeholder="html"
-          name="q"
-          onChange={handleInputChange}
+          name="topic"
+          id="searchTerm"
           required
         />
       </div>
@@ -32,3 +43,4 @@ function Form({ query, handleInputChange, handleFormSubmit }) {
 }
 
 export default Form;
+
