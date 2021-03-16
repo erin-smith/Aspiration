@@ -1,70 +1,58 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Aspiration: GitHub Topic Explorer
+[![Github Status](https://img.shields.io/badge/build-passing-green.svg)](https://shields.io/)
+![npm](https://img.shields.io/npm/v/npm)
+[![Awesome Project](https://img.shields.io/badge/%F0%9F%A4%A9-Awesome%20project-blueviolet.svg)](https://shields.io/)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-In the project directory, you can run:
+## Description
+  An Interactive React Dashboard app that queries a GitHub GraphGL API to search for and return topics from Github!  Upon starting, the app displays all "[topics](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#topic)" related to the term "react" and displays the top ten related topics with how many 
+  "[stargazers](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#stargazerconnection)" each topic has (stargazers are users that have starred a topic). The list of related topics is clickable, and upon clicking each topic the page searches and renders the clicked term with the results related to it.
 
-### `npm start`
+## Technologies Used  
+  This app uses Create-react-app (react), jest, axios, JavaScript, Bootstrap, useState and useEffect hooks, and Github GraphQL API.  
+      
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Link to project](https://github.com/erin-smith/Aspiration) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+ 
+ 
+## Installation 
+  Clone the code onto your computer and open with Visual studio Code.  From the project directory in your terminal run ### `npm install`.  Then from the src folder in the terminal, run ### `npm start`.  The app will run on localhost in your browser. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage 
+  The app allows users to search for and explore React related topics and search for topics on Github, observing their popularity by the number of stargazers. 
 
-### `npm run build`
+## License 
+[![ISClicense](https://img.shields.io/badge/license-ISC-blue.svg)](https://shields.io/)
+  This project is licensed under the ISC license. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing   
+ If you would like to contribute to this project or have feedback, please contact me below in the Questions Section.
+***
+ **Contributors:** erin-smith   
+***
+[![](https://sourcerer.io/fame/erin-smith/erin-smith/Aspiration/images/0)](https://sourcerer.io/fame/erin-smith/erin-smith/Aspiration/links/0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tests 
+  Tests were written and run using -- jest, console.log, and VSdebugger, as well as "throw err" and alerts, with functional error handling. The app has been tested locally and on Github.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Questions:  
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/erin-smith)  
 
-### `npm run eject`
+  If you have any questions about the repo, [open an issue](https://github.com/erin-smith/Aspiration/issues/new) or contact me:  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [My GitHub Profile](http://github.com/erin-smith)
+* [![Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)](<"mailto:erin.acumen@gmail.com">)
+***
+![My Profile Picture](https://avatars.githubusercontent.com/erin-smith?size=300)
