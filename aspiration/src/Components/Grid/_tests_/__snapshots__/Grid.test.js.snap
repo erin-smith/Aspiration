@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Col should match the snapshot 1`] = `
+<div
+  className="col-md-12"
+/>
+`;
+
+exports[`Grid Container should match the snapshot 1`] = `
+<div
+  className="container"
+/>
+`;
+
+exports[`Grid Row should match the snapshot 1`] = `
+<div
+  className="row"
+/>
+`;

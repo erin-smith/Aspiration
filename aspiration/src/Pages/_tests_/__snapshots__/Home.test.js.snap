@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page Should match the snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="jumbotron mt-4"
+      >
+        <h1
+          className="text-center"
+        >
+          <strong>
+            (React)GitHub Topic Explorer
+          </strong>
+        </h1>
+        <h2
+          className="text-center"
+        >
+          Search for or Explore Terms of Interest
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6 col-sm-12"
+    >
+      <div
+        className="card mt-4"
+      >
+        <div
+          className="card-header"
+        >
+          <h3>
+            <strong>
+              Topic Search
+            </strong>
+          </h3>
+        </div>
+        <div
+          className="card-body"
+        >
+          <form
+            className="search"
+          >
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="Query"
+              >
+                <strong>
+                  Topic
+                </strong>
+              </label>
+              <input
+                className="form-control"
+                id="searchTerm"
+                name="topic"
+                placeholder="html"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              className="pull-right"
+            >
+              <button
+                className="btn btn-lg btn-info float-right"
+                onClick={[Function]}
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-6 col-sm-12"
+    >
+      <div
+        className="card mt-4"
+      >
+        <div
+          className="card-header"
+        >
+          <h3>
+            <strong>
+              Search Results
+            </strong>
+          </h3>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="list-overflow-container"
+          >
+            <ul
+              className="list-group"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-8"
+                  >
+                    <h2
+                      className="font-italic"
+                    >
+                       Topic:  
+                      
+                    </h2>
+                  </div>
+                  <div
+                    className="col-md-4"
+                  />
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <p
+                      className="font-italic small"
+                    >
+                      Starred by 
+                      0
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <h5>
+                      Related Topics (max 10)
+                    </h5>
+                  </div>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-12 col-sm-8 col-md-10"
+                  >
+                    <ul />
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

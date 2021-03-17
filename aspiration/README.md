@@ -1,18 +1,20 @@
 
 
 # Aspiration: GitHub Topic Explorer
-[![Github Status](https://img.shields.io/badge/build-passing-green.svg)](https://shields.io/)
-![npm](https://img.shields.io/npm/v/npm)
-[![Awesome Project](https://img.shields.io/badge/%F0%9F%A4%A9-Awesome%20project-blueviolet.svg)](https://shields.io/)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## Description
   An Interactive React Dashboard app that queries a GitHub GraphGL API to search for and return topics from Github!  Upon starting, the app displays all "[topics](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#topic)" related to the term "react" and displays the top ten related topics with how many 
   "[stargazers](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#stargazerconnection)" each topic has (stargazers are users that have starred a topic). The list of related topics is clickable, and upon clicking each topic the page searches and renders the clicked term with the results related to it.
 
 ## Technologies Used  
-  This app uses Create-react-app (react), jest, axios, JavaScript, Bootstrap, useState and useEffect hooks, and Github GraphQL API.  
+  
+- Language: [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- View: [React](https://reactjs.org/)
+- CSS Framework: [Bootstrap](https://getbootstrap.com/)
+- React Router: [react router](https://www.npmjs.com/package/react-router-dom)
+- Unit Test framework: [Jest](https://jestjs.io/)
+- Unit Test library for UI: [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- IDE: VSCode (see below).  
       
 
 [Link to project](https://github.com/erin-smith/Aspiration) 

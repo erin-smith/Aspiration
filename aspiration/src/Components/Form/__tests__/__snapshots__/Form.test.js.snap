@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Should match the snapshot 1`] = `
+<form
+  className="search"
+>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="Query"
+    >
+      <strong>
+        Topic
+      </strong>
+    </label>
+    <input
+      className="form-control"
+      id="searchTerm"
+      name="topic"
+      placeholder="html"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="pull-right"
+  >
+    <button
+      className="btn btn-lg btn-info float-right"
+      onClick={[Function]}
+      type="submit"
+    >
+      Search
+    </button>
+  </div>
+</form>
+`;

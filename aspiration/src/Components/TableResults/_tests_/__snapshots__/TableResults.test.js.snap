@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableResults Should match the snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <h2
+        className="font-italic"
+      >
+         Topic:  
+        
+      </h2>
+    </div>
+    <div
+      className="col-md-4"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <p
+        className="font-italic small"
+      >
+        Starred by 
+        0
+      </p>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <h5>
+        Related Topics (max 10)
+      </h5>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-sm-8 col-md-10"
+    >
+      <ul />
+    </div>
+  </div>
+</div>
+`;

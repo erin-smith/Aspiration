@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbotron Should match the snapshot 1`] = `
+<div
+  className="jumbotron mt-4"
+/>
+`;
