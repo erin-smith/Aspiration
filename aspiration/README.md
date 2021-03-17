@@ -1,10 +1,11 @@
 
-
 # Aspiration: GitHub Topic Explorer
 
 ## Description
-  An Interactive React Dashboard app that queries a GitHub GraphGL API to search for and return topics from Github!  Upon starting, the app displays all "[topics](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#topic)" related to the term "react" and displays the top ten related topics with how many 
-  "[stargazers](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#stargazerconnection)" each topic has (stargazers are users that have starred a topic). The list of related topics is clickable, and upon clicking each topic the page searches and renders the clicked term with the results related to it.
+  An Interactive React Dashboard app that queries a GitHub GraphGL API to search for and return topics from Github!  The app displays the first ten "[topics](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#topic)" related to the term "react" with how many 
+  "[stargazers](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#stargazerconnection)" each topic has. This list of related topics is clickable, and upon clicking, the page searches and renders the clicked term with the results related to it.  
+    
+  [Link to project](https://github.com/erin-smith/Aspiration) 
 
 ## Technologies Used  
   
@@ -14,30 +15,65 @@
 - React Router: [react router](https://www.npmjs.com/package/react-router-dom)
 - Unit Test framework: [Jest](https://jestjs.io/)
 - Unit Test library for UI: [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- IDE: VSCode (see below).  
+- IDE: VSCode   
+
+## Dirctory Files:  
+
+    .
+    ├── node_modules
+    ├── public
+    ├── src
+    ├── .env
+    ├── .gitignore
+    ├── package.json
+    ├── README.md  
       
+- **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-[Link to project](https://github.com/erin-smith/Aspiration) 
+- **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site 
+
+- **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
 
-## Table of Contents
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-* [Questions](#Questions)
- 
- 
-## Installation 
-  Clone the code onto your computer and open with Visual studio Code.  From the project directory in your terminal run ### `npm install`.  Then from the src folder in the terminal, run ### `npm start`.  The app will run on localhost in your browser. 
+## Coding Style guide
 
-## Usage 
-  The app allows users to search for and explore React related topics and search for topics on Github, observing their popularity by the number of stargazers. 
+- [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-## License 
-[![ISClicense](https://img.shields.io/badge/license-ISC-blue.svg)](https://shields.io/)
-  This project is licensed under the ISC license. 
+  - naming conventions for variables and methods
+  - comments
+
+- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+  - code structure
+  - etc
+    
+      
+## Prerequisites  
+
+#### Node.js and npm
+
+- Install node.js with [npm](https://www.npmjs.com/get-npm)
+- use [node 12](https://nodejs.org/en/about/releases/) (current node LTS version)
+
+## 🚀 Quick start
+
+- make sure you're using node 12, and from the inner aspiration file, open the terminal. 
+- `npm install`
+- `npm start`
+
+Your site is now running at `http://localhost:3000`!
+
+## About .env
+
+Environment variables:
+
+SKIP_PREFLIGHT_CHECK
+REACT_APP_GITHUB_API_TOKEN
+
+    
+## Unit Test
+
+This project uses [Jest](https://jestjs.io/) as Unit Testing framework and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) for React Component Testing.
+
 
 ## Contributing   
  If you would like to contribute to this project or have feedback, please contact me below in the Questions Section.
@@ -45,9 +81,6 @@
  **Contributors:** erin-smith   
 ***
 [![](https://sourcerer.io/fame/erin-smith/erin-smith/Aspiration/images/0)](https://sourcerer.io/fame/erin-smith/erin-smith/Aspiration/links/0)
-
-## Tests 
-  Tests were written and run using -- jest, console.log, and VSdebugger, as well as "throw err" and alerts, with functional error handling. The app has been tested locally and on Github.
 
 ## Questions:  
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/erin-smith)  
