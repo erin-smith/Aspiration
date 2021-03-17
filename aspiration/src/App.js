@@ -22,16 +22,17 @@ function App () {
   };
 
   const doSearch = (searchTerm) => {
-    API.pleaseCallThis(searchTerm)
+    API.apolloSearch(searchTerm)
     .then((response) => {
-      if (response === null){
+
+      console.log("apollo response", response);
+      if (response.data.topic === null){
         console.log("null");
         setTopic({name:"NOT FOUND", stargazerCount:0, relatedTopics:[]});
         return;
       }
-      setTopic(response);
+      setTopic(response.data.topic);
     })
-    .catch(err => setError(err));
   }
 
   return (
