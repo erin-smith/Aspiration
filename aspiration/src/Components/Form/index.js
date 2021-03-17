@@ -1,11 +1,13 @@
-import React from "react";
+import React, {useRef} from "react";
 
 
 function Form (props) {
 
+  const searchField = useRef(null);
+
   function handleFormSubmit(e) {
     e.preventDefault();
-    const searchTerm = document.getElementById("searchTerm").value.trim();
+    const searchTerm = searchField.current.value.trim();
     console.log("Button was clicked and the topic is", searchTerm);
     if (searchTerm.length === 0){
       alert ("Please enter a topic");
@@ -25,7 +27,7 @@ function Form (props) {
           type="text"
           placeholder="html"
           name="topic"
-          id="searchTerm"
+          ref={searchField}
           required
         />
       </div>
